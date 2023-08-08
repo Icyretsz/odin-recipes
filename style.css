@@ -1,0 +1,162 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+.header1 {
+    display: inline-block; /* Keeps the text on the same line */
+    vertical-align: middle; /* Aligns the text vertically with the images */
+    margin: 0 10px; /* Adds some space between the images and text */
+    background-color: bisque;
+}
+
+div .h1image {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    display: inline-block; /* Makes the divs sit next to each other */
+    vertical-align: top; /* Aligns the top of the containers */
+    font-size: 16px; /* Resets the font-size for the content inside the containers */
+}
+
+.container-1 {
+    background-color: #D9751E;
+    width: 300px;
+    height: 450px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    margin: 20px;
+    align-items: center;
+
+}
+
+.container-1 .recipe-image1 {
+    max-width: 300px; /* Adjust the width and height as needed */
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+
+.container-1 .recipe-name1 { 
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    background-color: #8C2323;
+}
+
+.container-1 .link1 {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-1 div img {
+    width:25px;
+    height: auto;
+    display: block;
+    margin: 4px auto;
+}
+
+.container-1 div p {
+    text-align: center;
+    font-size: 12px;
+    margin: 4px auto;
+}
+
+.container-2 {
+    background-color: #91D2D9;
+    width: 300px;
+    height: 550px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    margin: 20px;
+    align-items: center;
+    
+}
+
+.container-2 .recipe-image2 {
+    width: 300px; /* Adjust the width and height as needed */
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+
+.container-2 .recipe-name2 { 
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    background-color: #A69F80;
+}
+
+.container-2 .link2 {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-2 div img {
+    width:25px;
+    height: auto;
+    display: block;
+    margin: 4px auto;
+}
+
+.container-2 div p {
+    text-align: center;
+    font-size: 12px;
+    margin: 4px auto;
+}
+
+.container-3 {
+    background-color: #A3BF3F;
+    width: 300px;
+    height: 520px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    margin: 20px;
+    align-items: center;
+    
+}
+
+.container-3 .recipe-image3 {
+    width: 300px; /* Adjust the width and height as needed */
+    height: auto;
+    margin: 0px;
+    display: block;
+}
+
+.container-3 .recipe-name3 { 
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    color: white;
+    background-color: #F2594B;
+}
+
+.container-3 .link3 {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-3 div img {
+    width:25px;
+    height: auto;
+    display: block;
+    margin: 4px auto;
+}
+
+.container-3 div p {
+    text-align: center;
+    font-size: 12px;
+    margin: 4px auto;
+}
+
