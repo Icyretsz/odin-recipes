@@ -1,0 +1,45 @@
+@import url(https://db.onlinewebfonts.com/c/aa0978a3bd6a626f739efaff3d30955e?family=Georgia+Pro+W01+Regular); 
+body {
+    font-family: 'Georgia Pro W01 Regular', 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-align:left;
+}
+
+.recipe-card {
+    display: inline-block;
+    text-align: left; /* Reset text alignment for recipe card */
+    margin-top: 20px;
+    width: 700px;
+}
+
+img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-card h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+.nutrition {
+    background-color: blanchedalmond;
+}
+
+.ingredient {
+    background-color: aquamarine;
+}
+
+.direction {
+    background-color: beige;
+}
+
+.nutrition, .direction, .ingredient {
+    text-align: center;
+}
