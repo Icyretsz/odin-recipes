@@ -42,15 +42,15 @@ img {
 }
 
 .nutrition {
-    background-color: blanchedalmond;
+    background-color: #91D2D9;
 }
 
 .ingredient {
-    background-color: aquamarine;
+    background-color: #8C3F54;
 }
 
 .direction {
-    background-color: #5F8C1B;
+    background-color: #F2B6CC;
 }
 
 .nutrition, .direction, .ingredient {
@@ -63,7 +63,7 @@ img {
 .description {
     width: 680px;
     margin: 0 auto;
-    background-color: #D9751E;
+    background-color: #A69F80;
     padding: 10px;
 }
 
